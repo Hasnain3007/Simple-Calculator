@@ -1,0 +1,49 @@
+body {
+    background-color: chocolate;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.buttons {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
